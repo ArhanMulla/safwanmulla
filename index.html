@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safwan Mulla — Mechanical Engineer</title>
+<meta name="description" content="Safwan Mulla — Mechanical Engineer specializing in composite materials and hydrogen storage systems (Type IV COPV). Portfolio, research, and experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background grid texture -->
+<div class="grid-texture" aria-hidden="true"></div>
+
+<!-- Mobile top bar -->
+<header class="mobile-bar">
+  <span class="mobile-bar__name">SAFWAN MULLA</span>
+  <button class="mobile-bar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar__inner">
+
+      <div class="profile-photo">
+        <img src="assets/profile.jpg" alt="Portrait of Safwan Mulla">
+      </div>
+
+      <h1 class="sidebar__name">Safwan<br>Mulla</h1>
+      <p class="sidebar__role">Mechanical Engineer</p>
+
+      <p class="sidebar__location">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        Ras Al Khaimah, UAE
+      </p>
+
+      <nav class="sidebar__nav" id="sideNav">
+        <a href="#about" class="nav-link active"><span class="nav-link__num">01</span>About</a>
+        <a href="#experience" class="nav-link"><span class="nav-link__num">02</span>Experience</a>
+        <a href="#education" class="nav-link"><span class="nav-link__num">03</span>Education</a>
+        <a href="#skills" class="nav-link"><span class="nav-link__num">04</span>Skills</a>
+        <a href="#achievements" class="nav-link"><span class="nav-link__num">05</span>Achievements</a>
+        <a href="#contact" class="nav-link"><span class="nav-link__num">06</span>Contact</a>
+      </nav>
+
+      <div class="sidebar__footer">
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/safwan-mulla/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          </a>
+          <a href="mailto:safwan.mulla@example.com" aria-label="Email" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg>
+          </a>
+        </div>
+        <a href="assets/Safwan-Mulla-CV.pdf" class="cv-btn" download>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 19h16"/></svg>
+          Download CV
+        </a>
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+
+    <!-- ABOUT -->
+    <section id="about" class="section section--hero">
+      <div class="hero-illustration" id="heroSvg" aria-hidden="true">
+        <svg viewBox="0 0 640 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect class="draw-path" x="140" y="60" width="360" height="100" rx="50" ry="50" stroke="var(--accent)" stroke-width="1.5"/>
+          <circle class="draw-path" cx="140" cy="110" r="7" stroke="var(--accent)" stroke-width="1.5"/>
+          <circle class="draw-path" cx="500" cy="110" r="7" stroke="var(--accent)" stroke-width="1.5"/>
+          <line class="draw-path draw-dash" x1="90" y1="110" x2="550" y2="110" stroke="var(--accent)" stroke-width="1" stroke-dasharray="4 5" opacity="0.5"/>
+          <g class="draw-path" stroke="var(--accent-2)" stroke-width="1" opacity="0.55">
+            <line x1="200" y1="60" x2="222" y2="160"/>
+            <line x1="240" y1="60" x2="262" y2="160"/>
+            <line x1="280" y1="60" x2="302" y2="160"/>
+            <line x1="320" y1="60" x2="342" y2="160"/>
+            <line x1="360" y1="60" x2="382" y2="160"/>
+            <line x1="400" y1="60" x2="422" y2="160"/>
+            <line x1="440" y1="60" x2="462" y2="160"/>
+          </g>
+          <g class="draw-path" stroke="var(--text-faint)" stroke-width="1">
+            <line x1="140" y1="188" x2="140" y2="196"/>
+            <line x1="500" y1="188" x2="500" y2="196"/>
+            <line x1="140" y1="192" x2="500" y2="192"/>
+          </g>
+          <text x="320" y="212" text-anchor="middle" class="svg-label">TYPE IV COPV — COMPOSITE H₂ STORAGE</text>
+        </svg>
+      </div>
+
+      <p class="eyebrow">Mechanical Engineering · Research</p>
+      <h2 class="hero-title">Engineering lighter, safer<br>hydrogen storage.</h2>
+      <p class="hero-sub">Composite Materials — Hydrogen Storage Systems — Marine &amp; Aerospace Engineering</p>
+
+      <div class="bio">
+        <p>I am a First Class Honours Mechanical Engineering graduate (GPA: 3.8/4.0) and a Visiting Researcher at Khalifa University, with a strong interest in composite materials, hydrogen storage systems, advanced manufacturing, and marine engineering.</p>
+        <p>My current research focuses on Type IV Composite Overwrapped Pressure Vessels (COPVs), laminate optimization, and Automated Fibre Placement (AFP) for lightweight hydrogen storage applications. Through this work, I have developed experience in composite design, engineering analysis, CAD, Python, and research-driven problem solving.</p>
+        <p>Previously, I completed an internship at Archirodon Construction, where I gained hands-on experience in marine maintenance, fabrication, heavy equipment repair, and workshop operations — strengthening my understanding of engineering applications across the marine and construction industries.</p>
+        <p>Alongside my technical work, I currently serve as Chairperson of the IMechE Student Chapter at the University of Greater Manchester, leading initiatives that connect students with industry, promote professional development, and encourage engineering outreach.</p>
+      </div>
+
+      <div class="focus-card">
+        <span class="focus-card__tag">Current Research</span>
+        <h3>Parametric Design &amp; Structural Analysis of a Type IV Composite Hydrogen Storage Vessel</h3>
+        <p>Integrating parametric formulation, composite structural analysis, and hydrogen storage system optimization — presented at the UAE Graduate Students Research Conference (GSRC 2026) and the International Workshop on Advanced Materials (IWAM 2026).</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <p class="eyebrow">02 — Career</p>
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-item__date">JUN 2026 — PRESENT</div>
+          <div class="timeline-item__body">
+            <h3>Visiting Researcher</h3>
+            <p class="timeline-item__meta">Khalifa University · Internship · Abu Dhabi, UAE · On-site</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-item__date">SEP 2025 — JUN 2026</div>
+          <div class="timeline-item__body">
+            <h3>Chairperson — Student Chapter (UOGM)</h3>
+            <p class="timeline-item__meta">Institution of Mechanical Engineers (IMechE) · Full-time · Ras Al Khaimah, UAE</p>
+            <p>Elected to lead the IMechE Student Chapter at the University of Greater Manchester RAK, overseeing technical, academic, and professional development activities for mechanical engineering students.</p>
+            <div class="tag-row"><span>Public Speaking</span><span>Team Leadership</span><span>+7 skills</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-item__date">JAN 2025 — JUN 2026</div>
+          <div class="timeline-item__body">
+            <h3>Mechanical Engineering Department Ambassador</h3>
+            <p class="timeline-item__meta">The University of Greater Manchester · Ras Al Khaimah, UAE</p>
+            <p>Selected to represent the Mechanical Engineering department after completing the Fundamentals of Ambassadorship certification.</p>
+            <div class="tag-row"><span>Interpersonal Communication</span><span>Public Relations</span><span>+3 skills</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-item__date">SEP 2023 — JUN 2026</div>
+          <div class="timeline-item__body">
+            <h3>Class Representative</h3>
+            <p class="timeline-item__meta">The University of Greater Manchester · Ras Al Khaimah, UAE</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-item__date">JUL 2025 — OCT 2025</div>
+          <div class="timeline-item__body">
+            <h3>Junior Workshop Engineer Intern</h3>
+            <p class="timeline-item__meta">Archirodon Group N.V. · Internship · RAK Maritime City, Ras Al Khaimah</p>
+            <p>Gained hands-on exposure to marine engine overhauling and repair (Caterpillar &amp; Cummins), supporting workshop activities including disassembly, inspection, and reassembly.</p>
+            <div class="tag-row"><span>Microsoft Excel</span><span>AutoCAD</span><span>+19 skills</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <p class="eyebrow">03 — Academics</p>
+      <h2 class="section-title">Education</h2>
+
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-card__date">SEP 2023 – JUN 2026</div>
+          <h3>University of Greater Manchester</h3>
+          <p class="timeline-item__meta">Bachelor of Engineering (BEng), Mechanical Engineering</p>
+          <div class="tag-row"><span>First Class Honours</span><span>GPA 3.8 / 4.0</span></div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-card__date">SEP 2022 – JUN 2023</div>
+          <h3>Manipal Institute of Technology</h3>
+          <p class="timeline-item__meta">Bachelor of Technology (BTech), Industrial Engineering</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <p class="eyebrow">04 — Capabilities</p>
+      <h2 class="section-title">Skills &amp; Certifications</h2>
+
+      <div class="skills-group">
+        <h4>Technical</h4>
+        <div class="tag-row tag-row--lg">
+          <span>Composite Design</span><span>Engineering Analysis</span><span>CAD</span><span>AutoCAD</span><span>Python</span><span>MATLAB</span><span>Ansys</span><span>Microsoft Excel</span><span>Data Analysis</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h4>Professional</h4>
+        <div class="tag-row tag-row--lg">
+          <span>Public Speaking</span><span>Team Leadership</span><span>Interpersonal Communication</span><span>Public Relations</span><span>Cross-Functional Analysis</span>
+        </div>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card"><span class="cert-card__date">JUN 2026</span><h5>EHS Training Certificate</h5><p>Khalifa University</p></div>
+        <div class="cert-card"><span class="cert-card__date">APR 2026</span><h5>Designing &amp; Analyzing Composite Structures</h5><p>Ansys</p></div>
+        <div class="cert-card"><span class="cert-card__date">APR 2026</span><h5>Introduction to Composite Manufacturing</h5><p>LinkedIn Learning</p></div>
+        <div class="cert-card"><span class="cert-card__date">APR 2026</span><h5>PowerPoint Essential Training</h5><p>LinkedIn Learning</p></div>
+        <div class="cert-card"><span class="cert-card__date">MAR 2026</span><h5>Excel Essential Training</h5><p>LinkedIn Learning</p></div>
+        <div class="cert-card"><span class="cert-card__date">MAR 2026</span><h5>GE Aerospace — Engineering Job Simulation</h5><p>Forage</p></div>
+        <div class="cert-card"><span class="cert-card__date">MAR 2026</span><h5>Resume Writing with AI Support</h5><p>Forage</p></div>
+        <div class="cert-card"><span class="cert-card__date">MAR 2026</span><h5>Fundamentals of Student Ambassadorships</h5><p>Univiser Academy</p></div>
+        <div class="cert-card"><span class="cert-card__date">OCT 2025</span><h5>MATLAB Onramp</h5><p>MATLAB@UCL</p></div>
+        <div class="cert-card"><span class="cert-card__date">JAN 2025</span><h5>Fundamentals of Ambassadorship</h5><p>Univiser Academy</p></div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <p class="eyebrow">05 — Recognition</p>
+      <h2 class="section-title">Achievements</h2>
+
+      <div class="research-grid">
+        <div class="research-card">
+          <span class="research-card__tag">Research · Jun 2026</span>
+          <h3>Graduate Student Research Program (GSRC)</h3>
+          <p class="timeline-item__meta">University of Sharjah</p>
+          <p>Presented a research poster at the UAE Graduate Students Research Conference, titled "Parametric Design and Structural Analysis of a Type IV Composite Hydrogen Storage Vessel."</p>
+        </div>
+        <div class="research-card">
+          <span class="research-card__tag">Research · Feb 2026</span>
+          <h3>Research Paper Presenter — IWAM 2026</h3>
+          <p class="timeline-item__meta">RAKCAM — Ras Al Khaimah Center for Advanced Materials</p>
+          <p>Presented a research paper on parametric formulation, composite structural analysis, and hydrogen storage system optimization at the International Workshop on Advanced Materials.</p>
+        </div>
+      </div>
+
+      <div class="honors-list">
+        <div class="honors-row"><span class="honors-row__date">JAN 2026</span><span class="honors-row__title">2nd Place — RAK EISC 2026</span><span class="honors-row__issuer">Ras Al Khaimah Department of Knowledge</span></div>
+        <div class="honors-row"><span class="honors-row__date">NOV 2025</span><span class="honors-row__title">6th Place — Inter College Environmental Public Speaking</span><span class="honors-row__issuer">Emirates Environmental Group</span></div>
+        <div class="honors-row"><span class="honors-row__date">OCT 2025</span><span class="honors-row__title">Speak Out For Engineering (SOFE) — UAE Local Heat</span><span class="honors-row__issuer">IMechE</span></div>
+        <div class="honors-row"><span class="honors-row__date">MAY 2025</span><span class="honors-row__title">Winner — Best Presentation, IMechE UAE Design Competition</span><span class="honors-row__issuer">IMechE</span></div>
+        <div class="honors-row"><span class="honors-row__date">NOV 2024</span><span class="honors-row__title">Inter College Environmental Public Speaking Competition</span><span class="honors-row__issuer">Emirates Environmental Group</span></div>
+        <div class="honors-row"><span class="honors-row__date">FEB 2024</span><span class="honors-row__title">2nd Place — RAK Innovation &amp; Sustainability Challenge</span><span class="honors-row__issuer">Stevin Rock</span></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--contact">
+      <p class="eyebrow">06 — Get in touch</p>
+      <h2 class="section-title">Let's build something.</h2>
+      <p class="hero-sub" style="max-width:520px;">Open to opportunities in composite engineering, hydrogen technologies, and mechanical design. Reach out directly below.</p>
+
+      <div class="contact-buttons">
+        <a href="mailto:safwan.mulla@example.com" class="cv-btn cv-btn--accent">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg>
+          Email Me
+        </a>
+        <a href="https://www.linkedin.com/in/safwan-mulla/" target="_blank" rel="noopener" class="cv-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+
+      <footer class="footer">
+        <p>© 2026 Safwan Mulla. Built with intent.</p>
+      </footer>
+    </section>
+
+  </main>
+</div>
+
+<div class="nav-overlay" id="navOverlay"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
